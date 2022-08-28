@@ -4,7 +4,6 @@ steps:
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     args:
       - '-c'
-      - build web --release
       - cp app.yaml build/web && cd build/web && gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy
     entrypoint: bash
 timeout: 1600s
