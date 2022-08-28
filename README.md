@@ -1,7 +1,9 @@
 # Weather forcast and alerts
 
 This project contains a Flutter based webpage that can display location based weather data using the openWeather API.
-This repo contains neccarssary files to automatic deploy the website to Google Cloud App Engine whenever the local Flutter project is updated commited to the main branch in GitHub, by using Cloud Build.
+This repo contains neccarssary files to automatic deploy the website to Google Cloud App Engine whenever the local Flutter project is updated commited to the main branch in GitHub, by using Cloud Build trigger.
+
+This repo is based on ..
 
 ## Features
 
@@ -13,15 +15,19 @@ This repo contains neccarssary files to automatic deploy the website to Google C
 The current version contains a 404 bug when using cloud build, so temperary the app has to be deployed manually.
 
 For demo see https://andreas-networkingsandboxtest.ew.r.appspot.com/
-This repo is the source for the demopage, and updates to this repo will direcly deploy a new version of the webpage. 
+The current demo webpage is connected to this repo, and updates to this Github Repo will trigger a new build and update to the webpage.
 
 ## Arcitechture diagram
 
 This arcitecture shows current version, but also include future update for Global Weather Alerts function. The goal is to use Global Weather Alerts API to perform at HTTP POST to Pub/Sub, which is picked up by Cloud function and inserted in Cloud Firestore. The Flutter application will then use a listner or check against the Cloud Firestore database to display alerts on the pagepage. 
 
-Cloud functions and Cloud Firestore for a future version that will
-
 ![Alt text here](arcitechture.png)
 
+
+## How to use
+
+1. Create a new Google Cloud project. Ensure GCloud is installed to your local machine, with neccassary permissions and APIs to deploy a App to App Engine using GCLOUD CLI from your local machine. 
+2. Clone this repo in to your a new local Flutter project on your machine
+3. 
 
 
