@@ -5,7 +5,7 @@ This project contains source files for https://weather.andreaslie.no/.
 The webpage can use the visitors browser location data to display weather using the openWeather API.
 
 The solution is developed in Flutter and is running on Google Clouds App Engine. 
-The work is a modifed version of [mercykips work](https://mercyjemosop.medium.com/open-weather-api-with-flutter-app-a294fbbe2a7a) for flutter and [mdeloge
+The work is a modifed version of [mercykips work](https://mercyjemosop.medium.com/open-weather-api-with-flutter-app-a294fbbe2a7a) for Flutter and [mdeloge
  work](https://github.com/mdeloge/flutter-web-deploy-demo) for building Flutter apps to App Engine using Cloud Build.
 
 
