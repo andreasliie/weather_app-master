@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/andreas-networkingsandboxtest/flutter:stable'
-    args: ['build', 'web']
+    args: ['build', 'web', 'release']
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     args:
       - '-c'
