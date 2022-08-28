@@ -3,7 +3,7 @@ import 'package:geolocator/geolocator.dart';
 class Location {
   double latitude;
   double longitide;
-  String apiKey = '2e9714911e1deb0a2ee62104c0b5928b';
+  String apiKey = '44fffa812812f226145b8c3f8cb8ff04';
   int status;
 
   /// async and await are used for time consuming tasks
