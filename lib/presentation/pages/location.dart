@@ -87,7 +87,7 @@ class _LocationsState extends State<Locations> {
             new Container(
               width: 300.0,
               child: TextField(
-                //controller: textController,
+                //controller:: textController,
                 autofocus: true,
                 decoration: InputDecoration(
                     border: OutlineInputBorder(
