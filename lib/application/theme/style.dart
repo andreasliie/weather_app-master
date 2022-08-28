@@ -1,30 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/application/theme/colors.dart';
 
-const NumberTextStyle = TextStyle(fontSize: 50, fontWeight: FontWeight.w600);
+const NumberTextStyle = TextStyle(fontSize: 20, fontWeight: FontWeight.w600);
 
 const normalTextStyle = TextStyle(
-  fontSize: 30.0,
+  fontSize: 20.0,
 );
 
 const subTitleTextStyle = TextStyle(fontSize: 25.0, color: white2);
 
 const titleTextStyle =
-    TextStyle(fontSize: 40.0, color: white, fontWeight: FontWeight.bold);
+    TextStyle(fontSize: 20.0, color: white, fontWeight: FontWeight.bold);
 
 const resultTextStyle = TextStyle(
-    fontSize: 40.0, color: hourbourGreen, fontWeight: FontWeight.bold);
+    fontSize: 20.0, color: hourbourGreen, fontWeight: FontWeight.bold);
 
 const bmiResultTextStyle =
     TextStyle(fontSize: 90.0, color: white, fontWeight: FontWeight.bold);
 const kTempTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
-  fontSize: 60.0,
+  fontSize: 20.0,
 );
 
 const kMessageTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
-  fontSize: 40.0,
+  fontSize: 20.0,
 );
 
 const kButtonTextStyle =

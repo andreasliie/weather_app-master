@@ -30,7 +30,7 @@ class _WeatherState extends State<Weather> {
     return Scaffold(
       body: Center(
         child: SpinKitFadingCircle(
-          color: Colors.red,
+          color: Colors.blue,
           size: 100.0,
         ),
       ),

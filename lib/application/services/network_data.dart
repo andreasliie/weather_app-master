@@ -9,8 +9,6 @@ class NetworkData {
   NetworkData(this.url);
   final String url;
 
-  ///  'https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitide&appid=$apiKey'
-
   /// get geographical coordinates from open weather API call
   Future getData() async {
     http.Response response = await http.get(Uri.parse(url));
