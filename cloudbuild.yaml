@@ -1,9 +1,10 @@
 steps:
   - name: 'gcr.io/andreas-networkingsandboxtest/flutter:stable'
-    args: ['build', 'web', 'release']
+    args: ['build', 'web']
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     args:
       - '-c'
+      - flutter build web --release
       - cp app.yaml build/web && cd build/web && gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy
     entrypoint: bash
 timeout: 1600s
