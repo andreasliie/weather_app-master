@@ -14,7 +14,7 @@ class WeatherModel {
 
   Future<dynamic> getLocationWeather() async {
     /// Get location
-    /// await for methods that return future
+    /// await for methods that return future1
     Location location = Location();
     await location.getCurrentLocation();
 
