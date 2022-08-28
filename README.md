@@ -14,7 +14,7 @@ This repo is based on ..
 
 The current version contains a 404 bug when using cloud build, so temperary the app has to be deployed manually.
 
-For demo see https://andreas-networkingsandboxtest.ew.r.appspot.com/
+For demo see https://weather.andreaslie.no/ or https://andreas-networkingsandboxtest.ew.r.appspot.com/
 The current demo webpage is connected to this repo, and updates to this Github Repo will trigger a new build and update to the webpage.
 
 ## Arcitechture diagram
